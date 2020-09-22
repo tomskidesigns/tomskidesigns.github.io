@@ -1,0 +1,527 @@
+/* Universal styles*/
+
+p {
+    font-family: 'Spinnaker', sans-serif;
+    color: #FFFFFF;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    background-color: #222222;
+    height: 55px;
+    top:0;
+    width: 100%;
+    position: fixed;
+    margin-left: -12px;
+    padding-right: 12px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#logo {
+    position: relative;
+    display: block;
+    width: 362px;
+    height: 60px;
+    left: 30px;
+}
+
+#emblem {
+    display:inline-block;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.logotype {
+    position: absolute;
+    font-family: 'Spinnaker', sans-serif;
+    color: #FFFFFF;
+    display: block;
+}
+
+#logotype1 {
+    top: 2px;
+    font-size: 18pt;
+    left: 60px;
+}
+
+#logotype2 {
+    top: 33px;
+    font-size: 9pt;
+    letter-spacing: 4.4px;
+    left: 61px;
+}
+
+#logoline {
+    width: 300px;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 28px;
+    left: 60px;
+}
+
+.menu {
+    display: inline;
+    top: 18px;
+    position: absolute;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+#home {
+    right: 255px;
+    color: #FFFFFF;
+}
+
+#about {
+    right: 165px;
+}
+
+#portfolio {
+    right: 30px;   
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14pt;
+}
+
+a:hover {
+    color: #90EFFF;
+}
+
+body {
+    background-image:url(images/website_background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+/* Styles for 'Home' page*/
+
+#titlepage {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+
+
+#line1 {
+    width: 100%;
+    height: 0.6vw;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 6.5vw;
+}
+
+
+
+h1 {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 8vw;
+    color: #FFFFFF;
+    position: absolute;
+    top: -7.6vw;
+    letter-spacing: 2.6vw;
+    left: -0.5vw;
+}
+
+
+
+h2 {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 4vw;
+    color: #FFFFFF;
+    position: absolute;
+    top: 3.9vw;
+    letter-spacing: 2.13vw;
+    left: 1.8vw;   
+}
+
+/* Styles for 'About' page */
+
+#container2 {
+    width: 100%;
+    height: 345%;
+}
+
+#abouttitle {
+    width: 72%;
+    height: 10%;
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 16%;
+}
+
+#who {
+    left: 0.4vw;
+    position: absolute;
+}
+
+#line2 {
+    width: 96%;
+    height: 0.6vw;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 6.3vw;
+}
+
+#mind {
+    left: 2.7vw;
+}
+
+#box1 {
+    width: 100%;
+    height: 75%;
+    top: 100%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+}
+
+#box1text {
+    width: 22%;
+    margin-left: 10%;
+}
+
+#type1 {
+    width: 110%;
+}
+
+#box2 {
+    width: 100%;
+    height: 80%;
+    top: 175%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+}
+
+#box2text {
+    width: 24%;
+    right: 15%;
+    position: absolute;
+}
+
+#type2 {
+    width: 115%;
+}
+
+
+#box3 {
+    width: 100%;
+    height: 90%;
+    top: 255%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+}
+
+#box3text {
+    width: 25%;
+    margin-left: 10%;
+}
+
+#type3 {
+    width: 110%;
+}
+
+.boxtext {
+    margin-top: 30px;
+    display: block;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#keyboard {
+    position: absolute;
+    display: inline-block;
+    right: 0.5px;
+    top: 0;
+}
+
+#profile {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0.5px;
+}
+.boxheader {
+    font-family: 'Spinnaker', sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+}
+
+.line {
+    width: 100%;
+    height: 0.3vw;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: -2px;
+}
+
+.type {
+    font-size: 1.6vw;
+    text-align: left;
+}
+
+/*Styles for 'Portfolio' page */
+
+#container3 {
+    width: 100%;
+    height: 570%;
+}
+
+#porttitle {
+    width: 72%;
+    height: 10%;
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 16%;
+}
+
+#line3 {
+    width: 105%;
+    height: 0.6vw;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 6.3vw;
+    left: -3.1%;
+}
+
+#box7 {
+    width: 100%;
+    height: 65%;
+    top: 100%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+}
+
+#box7text {
+    width: 20.5%;
+    left: 10%;
+    position: absolute;
+    top: 2%;
+}
+
+#type7 {
+    width: 122%;
+}
+
+#box8 {
+    width: 100%;
+    height: 75%;
+    top: 165%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+    right: 0.1px;
+    padding-bottom: 50%;
+}
+
+#box8text {
+    width: 26.3%;
+    right: 12.8%;
+    position: absolute;
+    top: 2%;
+}
+
+#type8 {
+    width: 110%;
+}
+
+#box9 {
+    width: 100%;
+    height: 70%;
+    top: 290%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+}
+
+#box9text {
+    width: 23.5%;
+    margin-left: 10%;
+    position: absolute;
+    top: 2%;
+}
+
+#type9 {
+    width: 112%;
+}
+
+#box10 {
+    width: 100%;
+    height: 75%;
+    top: 360%;
+    right: 0.1px;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+    padding-bottom: 50%;
+}
+
+#box10text {
+    width: 28.5%;
+    right: 10.8%;
+    position: absolute;
+    top: 2%;
+}
+
+#type10 {
+    width: 110%;
+}
+
+#box11 {
+    width: 100%;
+    height: 70%;
+    top: 485%;
+    position: absolute;
+    display: block;
+    background-color: #222222;
+}
+
+#line11 {
+    width: 105%;
+}
+
+#box11text {
+    width: 25.5%;
+    left: 10%;
+    position: absolute;
+    top: 2%;
+}
+
+#type11 {
+    width: 110%;
+}
+
+.gif {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+}
+
+#gift {
+    left: 50%;
+    object-fit: cover;
+}
+
+#coffee1 {
+    width: 100%;
+    object-fit: cover;
+}
+
+#coffee2 {
+    width: 100%;
+    top: 50%;
+    object-fit: cover;
+}
+
+#game {
+    right: 0.4px;
+    object-fit: cover;
+}
+
+#fudge1 {
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+}
+
+#fudge2 {
+    width: 100%;
+    top: 50%;
+    left: 0;
+    object-fit: cover;
+}
+
+#misc {
+    right: 0.4px;
+    object-fit: cover;
+}
+
+.wrap {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    display: block;
+}
+
+/* Universal Styles (cont)*/
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    margin-left: -10px;
+    padding-right: 12px;
+    position: fixed;
+    overflow: hide;
+    z-index: 2;
+}
+
+#footertype {
+    position: relative;
+    display: block;
+    font-size: 9pt;
+    width: 100%;
+    margin-left: 10px;
+}
+
+#contact {
+    left: 30px;
+    position: absolute;
+    display: inline;
+    top: -3px;
+    padding-bottom: -20px;
+}
+
+#email {
+    position: absolute;
+    display: inline;
+    left: 300px;
+    top: -3px;
+    padding-bottom: -20px;
+}
+
+.mail {
+    font-size: 9pt;
+}
+
+#phone {
+    position: absolute;
+    display: inline;
+    left: 590px;
+    top: -3px;
+    padding-bottom: -20px;
+}
+
+.mobile {
+    font-size: 9pt;
+}
